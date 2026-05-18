@@ -1,4 +1,6 @@
-config{{ materialized = 'view'}}
+{{ config(
+    materialized='view'
+) }}
 
-select * from
-source ('yogesh','emp')
+select *
+from {{ source('yogesh', 'emp') }}
