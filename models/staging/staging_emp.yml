@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: staging_emp
+    description: "Staging model for employee data"
+
+    columns:
+      - name: emp_id
+        description: "Unique employee identifier"
+
+      - name: emp_name
+        description: "Employee full name"
+
+      - name: dept_id
+        description: "Department identifier"
