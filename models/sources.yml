@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: yogesh
+    database: note1
+    schema: note2
+
+    tables:
+      - name: customers
+        columns:
+          - name: cust_id
+            tests:
+              - not_null
+              - unique
+
+      - name: account
+
+      - name: transactions
+
+      - name: emp
