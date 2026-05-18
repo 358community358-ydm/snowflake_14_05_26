@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: staging_emp
-    description: "Staging model for employee data"
+    description: "Staging employee model"
 
     columns:
       - name: emp_id
