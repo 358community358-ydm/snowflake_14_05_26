@@ -19,13 +19,11 @@ clean-targets:
 
 models:
   my_new_project:
-    +query_tag: dbt_t
 
     staging:
       +materialized: view
-
     intermediate:
-      +materialized: view
-
-    marts:
       +materialized: table
+      
+
+ 
