@@ -5,10 +5,10 @@
 ) }}
 
 SELECT *
-FROM {{ source('yogesh', 'emp') }}
+FROM {{ source('yogesh','emp') }} emp
 
 {% if is_incremental() %}
-WHERE joining_date >
+WHERE emp.joining_date >
 (
     SELECT MAX(joining_date)
     FROM {{ this }}
