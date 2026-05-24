@@ -4,5 +4,6 @@
     )
 }}
 
-select * from
+select *
+ from
 {{source('yogesh','account')}}
