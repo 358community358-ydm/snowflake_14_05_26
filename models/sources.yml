@@ -18,3 +18,7 @@ sources:
       - name: transactions
 
       - name: emp
+      - name: loan_raw
+      - name: account_raw
+      - name: customer_raw
+      - name: transaction_raw
